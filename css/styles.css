@@ -1,0 +1,163 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: 'Cantata One', serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Cantata One', serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.img-1 {
+  transform: rotate(25deg);
+  padding-top: 2rem;
+  width: 50%;
+  position: absolute;
+  right: 20%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+  /* z-index: 1; */
+  h3 {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  body {
+    font-family: 'Merriweather', serif;
+  }
+
+  .navbar-brand {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5rem;
+  }
+
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+
+  .nav-item {
+    padding: 0 18px;
+  }
+
+  .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+}
+
+.feature-box {
+  text-align: center;
+  font-size: 1rem;
+  padding: 5%;
+}
+
+.fea {
+  color: #ef8172;
+  margin-bottom: 3%
+}
+
+.fea:hover {
+  color: #ff4c68
+}
+
+p {
+  color: grey;
+  /* background-color: grey; */
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width:1113px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-1 {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  font-size: 5rem;
+  color: white;
+}
+
+.cta-heading{
+  font-size: 3rem;
+    font-family: 'Cantata One', serif;
+    font-weight: bold;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+
+.foot{
+  padding: 2% 1%;
+
+}
+
+.foot:hover{
+  color: grey;
+}
